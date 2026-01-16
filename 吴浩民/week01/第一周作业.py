@@ -28,7 +28,7 @@ knn_model.fit(X, y)
 client = OpenAI(
     # 若没有配置环境变量，请用百炼API Key将下行替换为：api_key="sk-xxx",
     # https://bailian.console.aliyun.com/?tab=model#/api-key
-    api_key="sk-92aa865c659e484a881281f153f521f2",
+    api_key="sk-92aa865c65xxxxx3f521f2",
 
     # 大模型厂商的地址，阿里云
     base_url="https://dashscope.aliyuncs.com/compatible-mode/v1",
